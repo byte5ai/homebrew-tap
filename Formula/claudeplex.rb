@@ -1,28 +1,28 @@
 class Claudeplex < Formula
   desc "Terminal multiplexer and cockpit for Claude Code"
   homepage "https://github.com/byte5ai/claudeplex"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/byte5ai/claudeplex/releases/download/v0.1.0/claudeplex-darwin-arm64"
-      sha256 "2a0dabbd1695b6bfdd81ddf204d9f8fdad6b2a88ec81d3f78edbe34459183aa4"
+      url "https://github.com/byte5ai/claudeplex/releases/download/v0.2.0/claudeplex-darwin-arm64"
+      sha256 "7920661fc7daab896f51fe2b474afb11d51947878eb8ed0fba6769a92f1cb2af"
     end
     on_intel do
-      url "https://github.com/byte5ai/claudeplex/releases/download/v0.1.0/claudeplex-darwin-x64"
-      sha256 "b1339d390754a7960027d852f4c3b77168e7b400808fe5b70f3c61c5eea55a4f"
+      url "https://github.com/byte5ai/claudeplex/releases/download/v0.2.0/claudeplex-darwin-x64"
+      sha256 "6563319d90993f0561e131042b2ae5612f09a53e2dae2676ef0da1e3dbead715"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/byte5ai/claudeplex/releases/download/v0.1.0/claudeplex-linux-arm64"
-      sha256 "ef2883cb71d849074e930c1343c16530d3a097232d2b356858ae160d6d3eea29"
+      url "https://github.com/byte5ai/claudeplex/releases/download/v0.2.0/claudeplex-linux-arm64"
+      sha256 "979b41ad5bf4921ea558c495d5cfdd8e98450722163c111cdf824ecbd4de0a39"
     end
     on_intel do
-      url "https://github.com/byte5ai/claudeplex/releases/download/v0.1.0/claudeplex-linux-x64"
-      sha256 "7ef60ba8704baafdaea1ce55875a020595b85847e3000b458b999f42a2dceb72"
+      url "https://github.com/byte5ai/claudeplex/releases/download/v0.2.0/claudeplex-linux-x64"
+      sha256 "7ce7281bafc9a9c8cf09c380180d0574519b567434a17bef10854156781eb9c8"
     end
   end
 
